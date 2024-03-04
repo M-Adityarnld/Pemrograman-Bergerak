@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Tampilan_Outputan"
+    android:padding="10dp"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Program Persegi Panjang Sederhana"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="#0000ff"
+        android:textSize="35dp"
+        />
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:padding="20dp"
+        android:text="Luas : "
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textSize="25dp" />
+
+
+    <EditText
+        android:id="@+id/HasilLuas"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Hasil Luas"
+        android:layout_gravity="left"
+        android:textStyle="italic"
+        android:inputType="number"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:padding="20dp"
+        android:text="Keliling : "
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textSize="25dp" />
+
+    <EditText
+        android:id="@+id/Hasilkeliling"
+        android:layout_width="350dp"
+        android:layout_height="48dp"
+        android:hint="Hasil Keliling"
+        android:layout_gravity="left"
+        android:textStyle="italic"
+        android:inputType="number"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:padding="20dp"
+        android:text="Panjang : "
+        android:textColor="#000000"
+        android:textSize="28dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/Panjang"
+        android:layout_width="350dp"
+        android:layout_height="48dp"
+        android:layout_gravity="left"
+        android:hint="Panjang"
+        android:inputType="number"
+        android:textStyle="italic" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:padding="20dp"
+        android:text="Lebar : "
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textSize="25dp" />
+
+    <EditText
+        android:id="@+id/Lebar"
+        android:layout_width="350dp"
+        android:layout_height="48dp"
+        android:hint="Lebar"
+        android:layout_gravity="left"
+        android:textStyle="italic"
+        android:inputType="number"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="#ff0000"
+        android:text="谢谢 (xiè.xiè)" />
+
+</LinearLayout>
